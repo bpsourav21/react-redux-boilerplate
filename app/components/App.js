@@ -1,10 +1,11 @@
 import React from 'react';
-import UserDetails from '../containers/user-detail';
+import ChatBox from '../containers/ChatBox';
+
 
 const App = () => (
     <div>
         <h2>User Details given below</h2>
-        <UserDetails />
+        <ChatBox />
     </div>
 );
 
