@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>React Webpack chat app</title>
-    <link rel="stylesheet" type="text/css" href="../public/css/main.css">
-    <link rel="stylesheet" type="text/css" href="scss/style.scss">
      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 </head>
@@ -12,7 +10,7 @@
 
     <div id="root"></div>
  
-  <!--   <script>
+     <!--<script>
       var socket = io();
         function setUsername(){
             socket.emit('setUsername', document.getElementById('name').value);
@@ -46,6 +44,16 @@
  -->
 
     <script src="js/bundle.min.js"></script>
+    <script> 
+    var socket = io();
+    //  socket.on('newmsg', function(data){
+    //         if(user){
+    //             // document.getElementById('message-container').innerHTML += '<div><b>' + data.user + '</b>: ' + data.message + '</div>'
+    //             console.log("___________________message____________________")
+    //             console.log(data.message)
+    //         }
+    //     })
+    </script>
 
 </body>
 </html>
