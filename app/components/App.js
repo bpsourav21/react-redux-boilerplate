@@ -5,7 +5,7 @@ require("../../public/css/style.css")
 
 const App = () => (
     <div>
-        <h2>ChatBox s </h2>
+        <h2>ChatBox sssssfs </h2>
         <ChatBox />
     </div>
 );

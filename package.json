@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --watch-poll"
   },
   "license": "ISC",
   "dependencies": {
@@ -32,6 +32,7 @@
     "redux-thunk": "^2.1.0",
     "sass-loader": "^4.0.0",
     "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.4",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-dev-middleware": "^1.6.1",
